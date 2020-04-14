@@ -1,6 +1,6 @@
 # Use Case Diagram
 
-Plant UML มีความสามารถในการรองรับการเขียน use case diagram ทั้งในส่วนของ use case, actor, การเปลี่ยนลูกศรเป็นแบบต่างๆ 
+Plant UML มีความสามารถในการรองรับการเขียน use case diagram ทั้งในส่วนของ use case, actor, การเปลี่ยนลูกศรเป็นแบบต่างๆ  
 
 Reference : [https://plantuml.com/use-case-diagram](https://plantuml.com/use-case-diagram)
 
@@ -18,11 +18,11 @@ Reference : [https://plantuml.com/use-case-diagram](https://plantuml.com/use-cas
 ' ระบุ use case โดยใช้เครื่องหมายวงเล็บ
 (First usecase)  
 
-' ระบุ use case โดยใช้เครื่องหมายวงเล็บ และกำหนดชื่อให้เป็น UC2 
+' ระบุ use case โดยใช้เครื่องหมายวงเล็บ และกำหนดชื่อให้เป็น UC2  
 ' ในการอ้างถึงในด้านล่างของโปรแกรม เราสามารถใช้ได้ทั้งชื่อ use case และชื่อตัวแปร
 (Another usecase) as (UC2)
 
-' สร้าง use case ชื่อ UC3 โดยใชีคีย์เวิร์ด (ไม่ใช้วงเล็บ) 
+' สร้าง use case ชื่อ UC3 โดยใชีคีย์เวิร์ด (ไม่ใช้วงเล็บ)  
 usecase UC3
 
 ' สร้าง use case ที่มีข้อความ 2 บรรทัด และกำหนดชื่อตัวแปรเป็น UC4
@@ -42,7 +42,7 @@ usecase (Last\nusecase) as UC4
 
 * การเขียน actor ทำได้โดยการเขียนคร่อมด้วนเครื่องหมาย colon ทั้งสองด้าน
 * หรือเขียนตามหลังคีย์เวิร์ด actor ก็ได้
-* เราสามารถกำหนดชื่อตัวแปรให้กับ actor  เพื่อความสะดวกในการเรียกใช้งานในภายหลัง โดยใช้คีย์เวิร์ด as 
+* เราสามารถกำหนดชื่อตัวแปรให้กับ actor  เพื่อความสะดวกในการเรียกใช้งานในภายหลัง โดยใช้คีย์เวิร์ด as  
 
 ```text
 @startuml
@@ -69,9 +69,9 @@ actor :Last actor: as Men4
 
 ### 3. Usecases description
 
-* ถ้าชื่อ use case มีข้อความที่ยาวหลายบรรทัด 
+* ถ้าชื่อ use case มีข้อความที่ยาวหลายบรรทัด  
 * เราสามารถเขียนล้อมรอบด้วยเครื่องหมายคำพูด ("  ")  
-* สามารถใช้เครื่องหมายต่อไปนี้เพื่อแบ่งส่วนย่อย (separator) ของ use case 
+* สามารถใช้เครื่องหมายต่อไปนี้เพื่อแบ่งส่วนย่อย (separator) ของ use case  
   * --
   * ..
   * ==
@@ -104,7 +104,7 @@ This allows large description."
 ### 4. Extension
 
 Actor หรือ use case สามารถทำ inheritance ได้
-เราสามารถใช้เครื่องหมาย  <|-- เพื่อแสดง inheritance 
+เราสามารถใช้เครื่องหมาย  <|-- เพื่อแสดง inheritance  
 
 ``` text
 @startuml
@@ -162,5 +162,3 @@ N2 .. (Use)
 รูปที่ 5 การเขียน notes
 
 ---
-
-

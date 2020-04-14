@@ -96,6 +96,7 @@ This allows large description."
 ```
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 3
+
 ![รูปที่ 3 การเขียน Usecases description](./image/diagram3.png)
 
 รูปที่ 3 การเขียน Usecases description

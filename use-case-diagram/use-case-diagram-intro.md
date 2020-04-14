@@ -32,7 +32,6 @@ usecase (Last\nusecase) as UC4
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 1
 
-
 <p align="center">
   <img src="./image/diagram1.png" alt="รูปที่ 1 การวาด use case">
 </p>
@@ -40,7 +39,6 @@ usecase (Last\nusecase) as UC4
 <p align="center">
 <b>รูปที่ 1</b> การวาด use case
 </p>
-
 
 ---
 
@@ -67,9 +65,13 @@ actor :Last actor: as Men4
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 2
 
-![รูปที่ 2 การวาด actor](./image/diagram2.png)
+<p align="center">
+  <img src="./image/diagram2.png" alt="รูปที่ 2 การวาด actor">
+</p>
 
-รูปที่ 2 การวาด actor
+<p align="center">
+<b>รูปที่ 2</b> การวาด actor
+</p>
 
 ---
 
@@ -103,9 +105,14 @@ This allows large description."
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 3
 
-![รูปที่ 3 การเขียน Usecases description](./image/diagram3.png)
 
-รูปที่ 3 การเขียน Usecases description
+<p align="center">
+  <img src="./image/diagram3.png" alt="รูปที่ 3 การเขียน Usecases description">
+</p>
+
+<p align="center">
+<b>รูปที่ 3 </b> การเขียน Usecases description
+</p>
 
 ### 4. Extension
 
@@ -125,9 +132,13 @@ User <|-- Admin
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 4
 
-![รูปที่ 4 การเขียน Extension](./image/diagram4.png)
+<p align="center">
+  <img src="./image/diagram4.png" alt="รูปที่ 4 การเขียน Extension">
+</p>
 
-รูปที่ 4 การเขียน Extension
+<p align="center">
+<b>รูปที่ 4</b> การเขียน Extension
+</p>
 
 ---
 

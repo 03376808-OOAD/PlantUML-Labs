@@ -174,9 +174,14 @@ N2 .. (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 5
 
-![รูปที่ 5 การเขียน notes](./image/diagram5.png)
 
-รูปที่ 5 การเขียน notes
+<p align="center">
+  <img src="./image/diagram5.png" alt="รูปที่ 5 การเขียน notes">
+</p>
+
+<p align="center">
+<b>รูปที่ 5</b> การเขียน notes
+</p>
 
 ---
 

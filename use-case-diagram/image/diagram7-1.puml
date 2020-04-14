@@ -1,0 +1,15 @@
+@startuml diagram7-1
+
+' down
+:user1: --> (Use case 1)
+
+' right
+:user1: -> (Use case 2)
+
+' up
+(Use case 3) <.. :user2:
+
+'left
+(Use case 4) <- :user2:
+
+@enduml

@@ -315,7 +315,7 @@ user2 --> (Usecase 2)
 
 รูปที่ 9.1 ทิศทางการวาดปกติจากบนลงล่าง
 
-#### 9.2 กรณีใช้ left to right direction 
+#### 9.2 กรณีใช้ left to right direction  
 
 ``` text
 @startuml
@@ -336,3 +336,44 @@ user2 --> (Usecase 2)
 
 ----
 
+## 10. การใช้งาน skin  
+
+plantuml รองรับการใช้งาน skin เพื่อเปลี่ยนรูปแบบในการวาดให้มีความน่าสนใจ พิจารณาตัวอย่างต่อไปนี้
+
+```text
+@startuml
+skinparam handwritten true
+
+skinparam usecase {
+BackgroundColor DarkSeaGreen
+BorderColor DarkSlateGray
+
+BackgroundColor<< Main >> YellowGreen
+BorderColor<< Main >> YellowGreen
+
+ArrowColor Olive
+ActorBorderColor black
+ActorFontName Courier
+
+ActorBackgroundColor<< Human >> Gold
+}
+
+User << Human >>
+:Main Database: as MySql << Application >>
+(Start) << One Shot >>
+(Use the application) as (Use) << Main >>
+
+User -> (Start)
+User --> (Use)
+
+MySql --> (Use)
+
+@enduml
+
+```
+
+จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 10
+
+![รูปที่ 10 ทิศทางการวาดปกติจากบนลงล่าง ](./image/diagram10.png)
+
+รูปที่ 10 ทิศทางการวาดปกติจากบนลงล่าง

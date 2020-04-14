@@ -32,14 +32,12 @@ usecase (Last\nusecase) as UC4
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 1
 
-<center>
-<> 
-
-
 
 <p align="center">
   <img src="./image/diagram1.png" alt="รูปที่ 1 การวาด use case">
+</p>
 
+<p align="center">
 <b>รูปที่ 1</b> การวาด use case
 </p>
 

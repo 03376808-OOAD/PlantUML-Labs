@@ -1,0 +1,15 @@
+@startuml
+
+' เขียน actor โดยวิธีการปกติ (ล้อมรอบด้วย colon :___: )
+:First Actor:
+
+' เขียน actor โดยวิธีการปกติ พร้อมกำหนดชื่อตัวแปร
+:Another\nactor: as Men2
+
+' เขียน actor โดยใช้คีย์เวิร์ด actor
+actor Men3
+
+' เขียน actor โดยวิธีการปกติ พร้อมกำหนดชื่อตัวแปร
+actor :Last actor: as Men4
+
+@enduml

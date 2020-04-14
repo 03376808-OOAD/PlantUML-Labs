@@ -1,4 +1,4 @@
-@startuml
+@startuml diagram2
 
 ' เขียน actor โดยวิธีการปกติ (ล้อมรอบด้วย colon :___: )
 :First Actor:

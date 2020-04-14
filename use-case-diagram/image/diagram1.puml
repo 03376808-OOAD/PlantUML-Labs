@@ -1,4 +1,4 @@
-@startuml
+@startuml diagram1
 
 ' ระบุ use case โดยใช้เครื่องหมายวงเล็บ
 (First usecase)  

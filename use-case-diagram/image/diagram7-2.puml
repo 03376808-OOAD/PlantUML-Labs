@@ -1,0 +1,8 @@
+@startuml diagram7-2
+
+:user: -left-> (dummyLeft)
+:user: -right-> (dummyRight)
+:user: -up-> (dummyUp)
+:user: -down-> (dummyDown)
+
+@enduml

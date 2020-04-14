@@ -32,9 +32,11 @@ usecase (Last\nusecase) as UC4
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 1
 
-![รูปที่ 1 การวาด use case](./image/diagram1.png)
+<center>
+<img src="./image/diagram1.png" alt="รูปที่ 1 การวาด use case"> 
 
-รูปที่ 1 การวาด use case
+<b>รูปที่ 1</b> การวาด use case
+</center>
 
 ---
 
@@ -293,9 +295,9 @@ newpage
 
 โดยปกติ  plantuml จะวาดภาพเรียงจากบนลงล่าง แต่เราก็สามารถปรับเปลี่ยนพฤติกรรมนั้นได้โดยการใช้คำสั่ง left to right direction
 
-พิจารณาตัวอย่างต่่อไปนี้ 
+พิจารณาตัวอย่างต่่อไปนี้  
 
-#### 9.1 กรณีปกติ (ไม่ใช้ left to right direction)
+#### 9.1 กรณีปกติ (ไม่ใช้ left to right direction)  
 
 ``` text
 @startuml

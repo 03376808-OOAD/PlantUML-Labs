@@ -33,7 +33,7 @@ usecase (Last\nusecase) as UC4
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 1
 
 <p align="center">
-  <img src="./image/diagram1.png" alt="รูปที่ 1 การวาด use case">
+  <img src="./image/diagram1.png" alt="รูปที่ 1 การวาด use case" border="1">
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ actor :Last actor: as Men4
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 2
 
 <p align="center">
-  <img src="./image/diagram2.png" alt="รูปที่ 2 การวาด actor">
+  <img src="./image/diagram2.png" alt="รูปที่ 2 การวาด actor"  border="1">
 </p>
 
 <p align="center">
@@ -107,7 +107,7 @@ This allows large description."
 
 
 <p align="center">
-  <img src="./image/diagram3.png" alt="รูปที่ 3 การเขียน Usecases description">
+  <img src="./image/diagram3.png" alt="รูปที่ 3 การเขียน Usecases description" border="1">
 </p>
 
 <p align="center">
@@ -133,7 +133,7 @@ User <|-- Admin
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 4
 
 <p align="center">
-  <img src="./image/diagram4.png" alt="รูปที่ 4 การเขียน Extension">
+  <img src="./image/diagram4.png" alt="รูปที่ 4 การเขียน Extension" border="1">
 </p>
 
 <p align="center">
@@ -175,7 +175,7 @@ N2 .. (Use)
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 5
 
 
-<p align="center">  <img src="./image/diagram5.png" alt="รูปที่ 5 การเขียน notes">
+<p align="center">  <img src="./image/diagram5.png" alt="รูปที่ 5 การเขียน notes" border="1">
 </p>
 
 <p align="center">
@@ -205,7 +205,7 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 6
 
-<p align="center">  <img src="./image/diagram6.png" alt="รูปที่ 6 การเขียน Stereotypes">
+<p align="center">  <img src="./image/diagram6.png" alt="รูปที่ 6 การเขียน Stereotypes" border="1">
 </p>
 
 <p align="center">
@@ -250,7 +250,7 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 7.1
 
-<p align="center">  <img src="./image/diagram7-1.png" alt="รูปที่ 7.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+<p align="center">  <img src="./image/diagram7-1.png" alt="รูปที่ 7.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์" border="1">
 </p>
 
 <p align="center">
@@ -283,7 +283,7 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 7.2
 
-<p align="center">  <img src="./image/diagram7-2.png" alt="รูปที่ 7.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+<p align="center">  <img src="./image/diagram7-2.png" alt="รูปที่ 7.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์" border="1">
 </p>
 
 <p align="center">
@@ -312,18 +312,18 @@ newpage
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 8.1 และ 8.2 
 
-<p align="center">  <img src="./image/diagram8.png" alt="รูปที่ 8.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+<p align="center">  <img src="./image/diagram8.png" alt="รูปที่ 8.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์" border="1">
 </p>
 
 <p align="center">
 <b>รูปที่ 8.1</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
 </p>
 
-<p align="center">  <img src="./image/diagram8_001.png" alt="รูปที่ 8.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+<p align="center">  <img src="./image/diagram8_001.png" alt="รูปที่ 8.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์พร้อมข้อความ" border="1">
 </p>
 
 <p align="center">
-<b>รูปที่ 8.2</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+<b>รูปที่ 8.2</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์พร้อมข้อความ
 </p>
 
 ---
@@ -350,7 +350,7 @@ user2 --> (Usecase 2)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 9.1
 
-<p align="center">  <img src="./image/diagram9-1.png" alt="รูปที่ 9.1 ทิศทางการวาดปกติจากบนลงล่าง">
+<p align="center">  <img src="./image/diagram9-1.png" alt="รูปที่ 9.1 ทิศทางการวาดปกติจากบนลงล่าง" border="1">
 </p>
 
 <p align="center">
@@ -372,7 +372,7 @@ user2 --> (Usecase 2)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 9.2
 
-<p align="center">  <img src="./image/diagram9-2.png" alt="รูปที่ 9.2 ทิศทางการวาดปกติจากบนลงล่าง">
+<p align="center">  <img src="./image/diagram9-2.png" alt="รูปที่ 9.2 ทิศทางการวาดปกติจากบนลงล่าง" border="1">
 </p>
 
 <p align="center">
@@ -420,7 +420,7 @@ MySql --> (Use)
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 10
 
 รูปที่ 10 ทิศทางการวาดปกติจากบนลงล่าง
-<p align="center">  <img src="./image/diagram10.png" alt="รูปที่ 10 การใช้งาน skin">
+<p align="center">  <img src="./image/diagram10.png" alt="รูปที่ 10 การใช้งาน skin" border="1">
 </p>
 
 <p align="center">

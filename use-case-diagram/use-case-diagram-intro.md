@@ -8,7 +8,7 @@ Reference : [https://plantuml.com/use-case-diagram](https://plantuml.com/use-cas
 
 ---
 
-### 1.การเขียน Use cases
+### 1. การเขียน Use cases
 
 การเขียน use case ทำได้โดยการเขียนชื่อ use case ไว้ในวงเล็บ ( ) ซึ่งถ้าดูรูปจะคล้ายกับรูปวงรี
 นอกจากการใช้วงเล็บ อาจจะเขียนคีย์เวิร์ด `usecase` นำหน้าชื่อ use case ที่ต้องการ
@@ -38,7 +38,7 @@ usecase (Last\nusecase) as UC4
 
 ---
 
-### 2.การเขียน Actors
+### 2. การเขียน Actors
 
 * การเขียน actor ทำได้โดยการเขียนคร่อมด้วนเครื่องหมาย colon ทั้งสองด้าน
 * หรือเขียนตามหลังคีย์เวิร์ด actor ก็ได้
@@ -67,7 +67,7 @@ actor :Last actor: as Men4
 
 ---
 
-### 3.การเขียน Usecases description
+### 3. การเขียน Usecases description
 
 * ถ้าชื่อ use case มีข้อความที่ยาวหลายบรรทัด 
 * เราสามารถเขียนล้อมรอบด้วยเครื่องหมายคำพูด ("  ")  
@@ -101,7 +101,7 @@ This allows large description."
 
 รูปที่ 3 การเขียน Usecases description
 
-### 4.การเขียน Extension
+### 4. การเขียน Extension
 
 Actor หรือ use case สามารถทำ inheritance ได้
 เราสามารถใช้เครื่องหมาย  <|-- เพื่อแสดง inheritance 
@@ -125,7 +125,7 @@ User <|-- Admin
 
 ---
 
-### 5.การเขียน notes
+### 5. การเขียน notes
 
 ใน plantuml เราสามารถเขียน note เพื่ออธิบายส่วนประกอบต่างๆ หรือให้ข้อมูลเพิ่มเติมแก่ผู้ใช้งาน use case diagram ได้  
 

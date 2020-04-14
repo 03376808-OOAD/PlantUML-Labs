@@ -32,9 +32,13 @@ usecase (Last\nusecase) as UC4
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 1
 
-![รูปที่ 1 การวาด use case](./image/diagram1.png)
+<p align="center">
+  <img src="./image/diagram1.png" alt="รูปที่ 1 การวาด use case">
+</p>
 
-รูปที่ 1 การวาด use case
+<p align="center">
+<b>รูปที่ 1</b> การวาด use case
+</p>
 
 ---
 
@@ -61,9 +65,13 @@ actor :Last actor: as Men4
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 2
 
-![รูปที่ 2 การวาด actor](./image/diagram2.png)
+<p align="center">
+  <img src="./image/diagram2.png" alt="รูปที่ 2 การวาด actor">
+</p>
 
-รูปที่ 2 การวาด actor
+<p align="center">
+<b>รูปที่ 2</b> การวาด actor
+</p>
 
 ---
 
@@ -97,9 +105,14 @@ This allows large description."
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 3
 
-![รูปที่ 3 การเขียน Usecases description](./image/diagram3.png)
 
-รูปที่ 3 การเขียน Usecases description
+<p align="center">
+  <img src="./image/diagram3.png" alt="รูปที่ 3 การเขียน Usecases description">
+</p>
+
+<p align="center">
+<b>รูปที่ 3 </b> การเขียน Usecases description
+</p>
 
 ### 4. Extension
 
@@ -119,9 +132,13 @@ User <|-- Admin
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 4
 
-![รูปที่ 4 การเขียน Extension](./image/diagram4.png)
+<p align="center">
+  <img src="./image/diagram4.png" alt="รูปที่ 4 การเขียน Extension">
+</p>
 
-รูปที่ 4 การเขียน Extension
+<p align="center">
+<b>รูปที่ 4</b> การเขียน Extension
+</p>
 
 ---
 
@@ -157,9 +174,13 @@ N2 .. (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 5
 
-![รูปที่ 5 การเขียน notes](./image/diagram5.png)
 
-รูปที่ 5 การเขียน notes
+<p align="center">  <img src="./image/diagram5.png" alt="รูปที่ 5 การเขียน notes">
+</p>
+
+<p align="center">
+<b>รูปที่ 5</b> การเขียน notes
+</p>
 
 ---
 
@@ -184,9 +205,12 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 6
 
-![รูปที่ 6 การเขียน Stereotypes](./image/diagram6.png)
+<p align="center">  <img src="./image/diagram6.png" alt="รูปที่ 6 การเขียน Stereotypes">
+</p>
 
-รูปที่ 6 การเขียน Stereotypes
+<p align="center">
+<b>รูปที่ 6</b> การเขียน Stereotypes
+</p>
 
 ---
 
@@ -226,9 +250,14 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 7.1
 
-![รูปที่ 7.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์ ](./image/diagram7-1.png)
+<p align="center">  <img src="./image/diagram7-1.png" alt="รูปที่ 7.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+</p>
 
-รูปที่ 7.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+<p align="center">
+<b>รูปที่ 7.1</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+</p>
+
+
 
 ถ้าต้องการระบุทิศทางที่ชัดแจ้งลงไป ก็สามารถทำได้ดังนี้
 
@@ -254,9 +283,12 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 7.2
 
-![รูปที่ 7.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์ ](./image/diagram7-2.png)
+<p align="center">  <img src="./image/diagram7-2.png" alt="รูปที่ 7.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+</p>
 
-รูปที่ 7.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+<p align="center">
+<b>รูปที่ 7.2</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+</p>
 
 ---
 
@@ -274,18 +306,25 @@ newpage
 @enduml
 
 ```
+
 ตัวอย่างด้านบน ถูกตั้งชื่อไฟล์ว่า  diagram8.puml ดังนั้น plantuml จะสร้างเป็นไฟล์ภาพ 2 ไฟล์ด้วยกัน โดยให้ชื่อไดอะแกรมแรกคือ diagram8.png และภาพที่ 2 ชื่อว่า diagram8_001.png ถ้ามีหลายหน้า ก็จะสร้างเป็น diagram8_002.png, diagram8_003.png ไปเป็นลำดับ
 
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 8.1 และ 8.2 
 
-![รูปที่ 8.1 ไดอะแกรมหน้าที่ 1 ](./image/diagram8.png)
+<p align="center">  <img src="./image/diagram8.png" alt="รูปที่ 8.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+</p>
 
-รูปที่ 8.1 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+<p align="center">
+<b>รูปที่ 8.1</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+</p>
 
-![รูปที่ 8.2 ไดอะแกรมหน้าที่ 2 ](./image/diagram8_001.png)
+<p align="center">  <img src="./image/diagram8_001.png" alt="รูปที่ 8.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์">
+</p>
 
-รูปที่ 8.2 การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+<p align="center">
+<b>รูปที่ 8.2</b>  การกำหนดทิศทางหัวลูกศรโดยการใช้สัญลักษณ์
+</p>
 
 ---
 
@@ -293,9 +332,9 @@ newpage
 
 โดยปกติ  plantuml จะวาดภาพเรียงจากบนลงล่าง แต่เราก็สามารถปรับเปลี่ยนพฤติกรรมนั้นได้โดยการใช้คำสั่ง left to right direction
 
-พิจารณาตัวอย่างต่่อไปนี้ 
+พิจารณาตัวอย่างต่่อไปนี้  
 
-#### 9.1 กรณีปกติ (ไม่ใช้ left to right direction)
+#### 9.1 กรณีปกติ (ไม่ใช้ left to right direction)  
 
 ``` text
 @startuml
@@ -311,9 +350,12 @@ user2 --> (Usecase 2)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 9.1
 
-![รูปที่ 9.1 ทิศทางการวาดปกติจากบนลงล่าง ](./image/diagram9-1.png)
+<p align="center">  <img src="./image/diagram9-1.png" alt="รูปที่ 9.1 ทิศทางการวาดปกติจากบนลงล่าง">
+</p>
 
-รูปที่ 9.1 ทิศทางการวาดปกติจากบนลงล่าง
+<p align="center">
+<b>รูปที่ 9.1</b>  ทิศทางการวาดปกติจากบนลงล่าง
+</p>
 
 #### 9.2 กรณีใช้ left to right direction  
 
@@ -330,9 +372,12 @@ user2 --> (Usecase 2)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 9.2
 
-![รูปที่ 9.2 ทิศทางการวาดปกติจากบนลงล่าง ](./image/diagram9-2.png)
+<p align="center">  <img src="./image/diagram9-2.png" alt="รูปที่ 9.2 ทิศทางการวาดปกติจากบนลงล่าง">
+</p>
 
-รูปที่ 9.2 ทิศทางการวาดปกติจากบนลงล่าง
+<p align="center">
+<b>รูปที่ 9.2</b> ทิศทางการวาดปกติจากบนลงล่าง
+</p>
 
 ----
 
@@ -374,6 +419,12 @@ MySql --> (Use)
 
 จาก code ด้านบนจะถูกวาดเป็นไดอะแกรมตามรูปที่ 10
 
-![รูปที่ 10 ทิศทางการวาดปกติจากบนลงล่าง ](./image/diagram10.png)
-
 รูปที่ 10 ทิศทางการวาดปกติจากบนลงล่าง
+<p align="center">  <img src="./image/diagram10.png" alt="รูปที่ 10 การใช้งาน skin">
+</p>
+
+<p align="center">
+<b>รูปที่ 10</b> การใช้งาน skin
+</p>
+
+---

@@ -1,0 +1,16 @@
+@startuml home1
+actor Customer  
+Customer-right->(Member register)
+Customer-up->(Log in)
+Customer-->(Make Order)
+actor Owner
+Owner -up-> (Log in)
+(Manage Goods)<-Owner
+Owner-->(Print Slips)
+skinparam usecase {
+BackgroundColor RoyalBlue
+BorderColor RoyalBlue
+FontColor white
+ArrowColor RoyalBlue
+}
+@enduml

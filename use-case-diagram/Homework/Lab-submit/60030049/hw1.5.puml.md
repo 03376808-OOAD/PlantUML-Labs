@@ -1,5 +1,5 @@
 ```puml
-@startuml home1
+@startuml home3
 left to right direction
 skinparam rectangle{
     BorderColor LawnGreen
@@ -9,16 +9,18 @@ skinparam actor{
     BackgroundColor Green
     BorderColor Green
     FontColor Green
+    
 }
+actor Employee
 actor Customer
-actor Owner
-rectangle "Online Food shop overview"{
-    Customer--(Member register)
-    Customer--(Log in)
-    (Manage Goods)--Owner
-    (Log in) -- Owner
-    Customer--(Make Order)
-    (Print Slips)--Owner
+rectangle "Book store"{
+    Customer--(Find a book)
+    Customer--(add to cart)
+    Customer--(Checkout)
+    (make invoice)--Employee
+    Customer--(payment)
+    (payment)--Employee
+    (Print slip)--Employee
 }
 skinparam usecase {
     BackgroundColor RoyalBlue

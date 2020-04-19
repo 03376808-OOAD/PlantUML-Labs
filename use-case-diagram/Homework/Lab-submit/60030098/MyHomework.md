@@ -1,12 +1,13 @@
-#การบ้าน (Homework)
-##ของนายสิทธินนท์ ตติยะจินดา รหัสนักศึกษา 60030098
+# การบ้าน (Homework)
+## ของนายสิทธินนท์ ตติยะจินดา รหัสนักศึกษา 60030098
 
-จากคำสั่งของอาจารย์
-กระผมจึงได้เขียน Code ของ PlantUML ดังนี้
+### จากคำสั่งของอาจารย์
 
-1.ระบบจัดการร้านอาหาร
+### กระผมจึงได้เขียน Code ของ PlantUML ดังนี้
 
-1.1
+#### 1.ระบบจัดการร้านอาหาร
+
+#### 1.1
 
 ```
 @startuml food1
@@ -42,7 +43,7 @@ rectangle "Online Food shop overview"{
 @enduml
 ```
 
-1.2
+#### 1.2
 
 ```
 @startuml food2
@@ -76,7 +77,7 @@ rectangle "Online Food shop menu management subsystem"{
 @enduml
 ```
 
-1.3
+#### 1.3
 ```
 @startuml food3
 actor customer
@@ -109,7 +110,7 @@ rectangle "Online Food shop order subsystem"{
 @enduml
 ```
 
-1.4
+#### 1.4
 ```
 @startuml truck
 actor employee
@@ -146,7 +147,7 @@ rectangle "Online Food shop menu management subsystem"{
 @enduml
 ```
 
-1.5
+#### 1.5
 ```
 @startuml book
 actor Customer

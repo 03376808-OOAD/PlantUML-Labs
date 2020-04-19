@@ -1,0 +1,33 @@
+@startuml truck
+actor employee
+actor Admin
+actor :Truck Manager: as Truck
+left to right direction
+skinparam rectangle{    
+    FontColor #73ae42
+    BorderColor #73ae42
+    Shadowing false
+}
+skinparam actor{
+    FontColor #73ae42
+    BackgroundColor #73ae42
+    BorderColor #73ae42
+    Shadowing false
+}
+skinparam usecase {
+    FontColor White 
+    ArrowColor #5b9bd5
+    BackgroundColor #5b9bd5
+    BorderColor #5b9bd5
+    Shadowing false
+}
+rectangle "Online Food shop menu management subsystem"{
+    employee -- (Login)
+    (Login) -- Admin
+    (Manage employee) -- Admin
+    (Rent Truck<U+0028>s<U+0029>) -- employee
+    (Manage Truck Info) -- Truck
+    (Release a truck) -- Truck
+    (Invoice manage) -- Truck
+}
+@enduml

@@ -1,0 +1,31 @@
+@startuml foodshop
+actor Customer
+actor Owner
+left to right direction
+skinparam actor{
+    FontColor OliveDrab
+    BackgroundColor OliveDrab
+    BorderColor OliveDrab
+    Shadowing false
+}
+skinparam usecase {
+    FontColor White 
+    ArrowColor SteelBlue
+    BackgroundColor SteelBlue
+    BorderColor SteelBlue
+    Shadowing false
+}
+skinparam rectangle{    
+    FontColor OliveDrab
+    BorderColor OliveDrab
+    Shadowing false
+}
+rectangle "Online Food shop overview"{
+    Customer -- (member register)
+    Customer -- (Login)
+    (Login) -- Owner
+    (Manage Goods) -- Owner
+    Customer -- (Make order)
+    (Print slips) -- Owner
+}
+@enduml

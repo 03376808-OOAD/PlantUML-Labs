@@ -1,0 +1,29 @@
+@startuml foodshop3
+actor Customer
+actor Supervisor
+left to right direction
+skinparam actor{
+    FontColor OliveDrab
+    BackgroundColor OliveDrab
+    BorderColor OliveDrab
+    Shadowing false
+}
+skinparam usecase {
+    FontColor White 
+    ArrowColor SteelBlue
+    BackgroundColor SteelBlue
+    BorderColor SteelBlue
+    Shadowing false
+}
+skinparam rectangle{    
+    FontColor OliveDrab
+    BorderColor OliveDrab
+    Shadowing false
+}
+rectangle "Online Food shop menu management subsystem"{
+    Customer -- (Select items)
+    Customer -- (make order)
+    (check order) -- Supervisor
+    (make purchase order) -- Supervisor
+}
+@enduml

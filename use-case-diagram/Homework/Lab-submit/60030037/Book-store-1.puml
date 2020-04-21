@@ -1,0 +1,35 @@
+@startuml Book-store-1
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam Shadowing false
+skinparam actor {
+    BorderColor OliveDrab
+    FontName Courier
+    FontColor OliveDrab
+    BackgroundColor OliveDrab
+}
+
+' skinparam linetype ortho
+skinparam usecase {
+    BackgroundColor CornflowerBlue
+    BorderColor CornflowerBlue
+    FontColor Azure
+    FontSize 20
+
+    ArrowColor CornflowerBlue
+}
+
+actor Customer
+actor Employee
+
+rectangle "Book store"{
+    Customer -- (Find a book)
+    Customer -- (add to cart)
+    Customer -- (Checkout)
+    (make invoice) -- Employee
+    Customer -- (payment)
+    (payment) -- Employee
+    (Print slip) -- Employee
+}
+@enduml

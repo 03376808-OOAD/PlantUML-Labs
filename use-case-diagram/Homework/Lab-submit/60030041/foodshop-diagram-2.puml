@@ -1,0 +1,15 @@
+@startuml foodshop-diagram-2
+left to right direction
+skinparam usecase{
+    BackgroundColor CornflowerBlue
+    FontColor Azure
+}
+:Customer: as Customer
+:Owner: as Owner 
+rectangle "Online Food shop menu management subsystem"{
+(Add food menu)--Owner
+(Edid menu)--Owner
+Customer--(View menu)
+(View menu)--Owner
+}
+@enduml

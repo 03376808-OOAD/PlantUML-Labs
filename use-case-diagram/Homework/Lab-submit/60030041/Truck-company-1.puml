@@ -1,0 +1,20 @@
+@startuml Truck rental company
+left to right direction
+skinparam usecase{
+    BackgroundColor CornflowerBlue
+    FontColor Azure
+}
+actor Admin
+actor Employee
+actor "Truck Manager" as truckManager
+
+rectangle "Truck rental company"{
+Employee--(Login)
+(Manage/n employee)--Admin
+usecase "Rent Truck(s)" as rentTruck
+Employee--rentTruck
+(Mange Truck Info)--truckManager
+(Release truck)--truckManager
+(Invoice mange)--truckManager
+}
+@enduml

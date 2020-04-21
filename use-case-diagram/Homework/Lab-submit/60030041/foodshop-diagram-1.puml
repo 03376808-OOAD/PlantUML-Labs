@@ -1,0 +1,20 @@
+@startuml foodshop-diagram-1
+left to right direction
+skinparam usecase{
+    BackgroundColor CornflowerBlue
+    FontColor Azure
+}
+:customer: as customer
+:Owner: as Owner
+rectangle "Online Food shop overview"{
+customer--(member register)
+ 
+customer--(Login)
+(Login)--Owner
+(Mamge\n Goods)--Owner
+customer--(Make order)
+(Print slips)--Owner
+
+}
+
+@enduml

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="449px" preserveAspectRatio="none" style="width:380px;height:449px;" version="1.1" viewBox="0 0 380 449" width="380px" zoomAndPan="magnify"><defs><filter height="300%" id="f3hn8gqakkdcd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster Book store--><rect fill="#FFFFFF" filter="url(#f3hn8gqakkdcd)" height="414" style="stroke: #000000; stroke-width: 1.5;" width="154" x="108" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="146.5" y="40.5332">Book store</text><ellipse cx="185.033" cy="75.9517" fill="#6495ED" filter="url(#f3hn8gqakkdcd)" rx="56.033" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#F0FFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="147.533" y="81.2564">Finn a book</text><ellipse cx="185.0833" cy="141.9517" fill="#6495ED" filter="url(#f3hn8gqakkdcd)" rx="51.0833" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#F0FFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="151.0833" y="147.2564">add to cart</text><ellipse cx="184.9264" cy="207.9517" fill="#6495ED" filter="url(#f3hn8gqakkdcd)" rx="45.4264" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#F0FFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="154.9264" y="213.2564">Checkout</text><ellipse cx="184.9828" cy="273.9517" fill="#6495ED" filter="url(#f3hn8gqakkdcd)" rx="60.9828" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#F0FFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="143.9828" y="279.2564">make invoice</text><ellipse cx="185.1838" cy="339.9517" fill="#6495ED" filter="url(#f3hn8gqakkdcd)" rx="41.1838" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#F0FFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="158.1838" y="345.2564">payment</text><ellipse cx="185.1838" cy="405.9517" fill="#6495ED" filter="url(#f3hn8gqakkdcd)" rx="41.1838" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#F0FFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="158.1838" y="411.2564">Print slip</text><!--entity customer--><ellipse cx="35" cy="142.5" fill="#FEFECE" filter="url(#f3hn8gqakkdcd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M35,150.5 L35,177.5 M22,158.5 L48,158.5 M35,177.5 L22,192.5 M35,177.5 L48,192.5 " fill="none" filter="url(#f3hn8gqakkdcd)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="6" y="214.0332">customer</text><!--entity Employee--><ellipse cx="337" cy="307.5" fill="#FEFECE" filter="url(#f3hn8gqakkdcd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M337,315.5 L337,342.5 M324,323.5 L350,323.5 M337,342.5 L324,357.5 M337,342.5 L350,357.5 " fill="none" filter="url(#f3hn8gqakkdcd)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="306" y="379.0332">Employee</text><!--link customer to Finn a book--><path d="M64.1669,140.519 C74.5514,129.375 86.9815,117.671 100,109 C113.823,99.793 130.601,92.553 145.516,87.23 " fill="none" id="customer-Finn a book" style="stroke: #A80036; stroke-width: 1.0;"/><!--link customer to add to cart--><path d="M64.186,168.715 C86.579,163.722 118.2,156.672 143.334,151.067 " fill="none" id="customer-add to cart" style="stroke: #A80036; stroke-width: 1.0;"/><!--link customer to Checkout--><path d="M64.186,181.285 C87.5016,186.483 120.821,193.913 146.407,199.618 " fill="none" id="customer-Checkout" style="stroke: #A80036; stroke-width: 1.0;"/><!--link make invoice to Employee--><path d="M220.617,286.801 C235.887,292.652 253.969,299.861 270,307 C281.82,312.264 294.586,318.511 305.712,324.146 " fill="none" id="make invoice-Employee" style="stroke: #A80036; stroke-width: 1.0;"/><!--link customer to payment--><path d="M47.7119,217.753 C57.5056,246.367 74.1149,283.038 100,307 C113.568,319.56 132.475,327.552 148.916,332.519 " fill="none" id="customer-payment" style="stroke: #A80036; stroke-width: 1.0;"/><!--link payment to Employee--><path d="M226.197,340 C251.19,340 282.808,340 305.69,340 " fill="none" id="payment-Employee" style="stroke: #A80036; stroke-width: 1.0;"/><!--link Print slip to Employee--><path d="M215.032,395.3269 C231.335,389.1516 251.966,381.0319 270,373 C281.82,367.736 294.586,361.489 305.712,355.854 " fill="none" id="Print slip-Employee" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+left to right direction
+skinparam usecase{
+    BackgroundColor CornflowerBlue
+    FontColor Azure
+}
+actor customer
+actor Employee
+
+rectangle "Book store"{
+customer- -(Finn a book)
+customer- -(add to cart)
+customer- -(Checkout)
+(make invoice)- -Employee
+customer- -(payment)
+(payment)- -Employee
+(Print slip)- -Employee
+}
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 23:19:51 ICT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_191-b12
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: MS874
+Language: en
+Country: US
+--></g></svg>

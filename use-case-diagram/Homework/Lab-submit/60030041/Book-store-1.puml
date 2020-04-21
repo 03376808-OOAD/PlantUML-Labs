@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam usecase{
+    BackgroundColor CornflowerBlue
+    FontColor Azure
+}
+actor customer
+actor Employee
+
+rectangle "Book store"{
+customer--(Finn a book)
+customer--(add to cart)
+customer--(Checkout)
+(make invoice)--Employee
+customer--(payment)
+(payment)--Employee
+(Print slip)--Employee
+}
+@enduml

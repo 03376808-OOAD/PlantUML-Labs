@@ -1,0 +1,31 @@
+@startuml foodshop-diagram-2
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam Shadowing false
+skinparam actor {
+    BorderColor OliveDrab
+    FontName Courier
+    FontColor OliveDrab
+    BackgroundColor OliveDrab
+}
+
+' skinparam linetype ortho
+skinparam usecase {
+    BackgroundColor CornflowerBlue
+    BorderColor CornflowerBlue
+    FontColor Azure
+    FontSize 20
+
+    ArrowColor CornflowerBlue
+}
+
+actor customer
+actor Owner
+
+rectangle "Online Food shop menu management subsystem"{
+    (Add food menu) -- Owner
+    (Edit menu) -- Owner
+    customer -- (View menu)
+}
+@enduml

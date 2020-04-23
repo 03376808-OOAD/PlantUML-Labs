@@ -1,0 +1,32 @@
+@startuml Truck
+actor employee
+actor Admin
+actor TruckManager
+left to right direction
+
+skinparam Shadowing false
+skinparam actor{
+    FontColor yellowgreen
+    BackgroundColor yellowgreen
+    BorderColor yellowgreen
+}
+skinparam rectangle{    
+    FontColor yellowgreen
+    BorderColor yellowgreen
+}
+skinparam usecase {
+    FontColor White 
+    ArrowColor SteelBlue
+    BackgroundColor SteelBlue
+    BorderColor SteelBlue
+}
+rectangle " Truck rental company"{
+   employee -- (Login)
+   (Login) -- Admin
+   (Manage employee) -- Admin
+   employee -- (Rent Truck s)
+   (Manage Truck Info) -- TruckManager
+   (Release a truck) -- TruckManager
+   (Invoice manage) -- TruckManager
+}
+@enduml

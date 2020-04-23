@@ -1,0 +1,29 @@
+@startuml foodMenage
+actor customer
+actor Owner
+left to right direction
+
+skinparam Shadowing false
+skinparam actor{
+    FontColor Yellowgreen
+    BackgroundColor Yellowgreen
+    BorderColor Yellowgreen
+}
+skinparam rectangle{
+    FontColor Yellowgreen
+    BorderColor Yellowgreen
+}
+skinparam usecase {
+    FontColor White
+    ArrowColor SteelBlue
+    BackgroundColor SteelBlue
+    BorderColor SteelBlue
+}
+
+rectangle "Online Food shop menu management subsystem"{
+    (Add food menu) -- Owner
+    (Edit menu) -- Owner
+    customer -- (View menu)
+    (View menu) -- Owner
+}
+@enduml

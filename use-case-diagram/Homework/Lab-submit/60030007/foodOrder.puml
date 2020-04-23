@@ -1,0 +1,28 @@
+@startuml foodOrder
+actor customer
+actor supervisor
+left to right direction
+
+skinparam Shadowing false
+skinparam actor{
+    FontColor Yellowgreen
+    BackgroundColor Yellowgreen
+    BorderColor Yellowgreen
+}
+skinparam rectangle{
+    FontColor Yellowgreen
+    BorderColor Yellowgreen
+}
+skinparam usecase {
+    FontColor White
+    ArrowColor SteelBlue
+    BackgroundColor SteelBlue
+    BorderColor SteelBlue
+}
+rectangle  "Online Food shop order subsystem"{
+    customer -- (Select items)
+    customer -- (make order)
+    (check order)--supervisor
+    (make purchase order)-- supervisor
+}
+@enduml

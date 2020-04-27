@@ -1,0 +1,32 @@
+@startuml Book
+left to right direction
+actor Customer
+actor Employee
+skinparam Shadowing false
+skinparam usecase{
+    FontColor white
+    BackgroundColor #cornflowerBlue
+    BorderColor #cornflowerBlue
+    ArrowColor #cornflowerBlue
+}
+skinparam actor{
+    FontColor YellowGreen
+    BackgroundColor YellowGreen
+    BorderColor YellowGreen
+
+}
+skinparam rectangle{
+    FontColor YellowGreen
+    BorderColor YellowGreen
+}
+
+rectangle "Book store"{
+    Customer --- (Find a book)
+    Customer --- (add to cart)
+    Customer --- (Checkout)
+    (make invoice) --- Employee
+    Customer --- (payment)
+    (payment) --- Employee
+    (Print slip) --- Employee
+}
+@enduml

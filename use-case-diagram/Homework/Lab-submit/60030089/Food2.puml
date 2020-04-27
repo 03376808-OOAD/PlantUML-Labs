@@ -1,0 +1,30 @@
+@startuml Food2
+left to right direction
+
+skinparam Shadowing false
+skinparam usecase{
+    FontColor white
+    BackgroundColor #cornflowerBlue
+    BorderColor #cornflowerBlue
+    ArrowColor #cornflowerBlue
+}
+skinparam actor{
+    FontColor YellowGreen
+    BackgroundColor YellowGreen
+    BorderColor YellowGreen
+}
+skinparam rectangle{
+    BorderColor YellowGreen
+    FontColor YellowGreen
+}
+actor customer
+actor Owner
+rectangle "Online Food shop menu management subsystem"{
+
+(Add food menu) -- Owner 
+(Edit menu) -- Owner
+
+customer --(view menu)
+(view menu)--Owner
+}
+@enduml

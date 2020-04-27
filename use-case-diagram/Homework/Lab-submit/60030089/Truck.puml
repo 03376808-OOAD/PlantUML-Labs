@@ -1,0 +1,35 @@
+@startuml Truck
+
+left to right direction
+skinparam Shadowing false
+skinparam PackageStyle rectangle
+skinparam usecase{
+    FontColor white
+    BackgroundColor #cornflowerBlue
+    BorderColor #cornflowerBlue
+    ArrowColor #cornflowerBlue
+}
+skinparam actor{
+    FontColor YellowGreen
+    BackgroundColor YellowGreen
+    BorderColor YellowGreen
+}
+skinparam rectangle{
+    FontColor YellowGreen
+    BorderColor YellowGreen
+}
+actor employee
+actor Admin
+actor "Truck Manage" as truck
+
+rectangle "Truck rental company"{
+employee --- (Login)
+(Login) -- Admin
+(Manage \n employee) -- Admin
+usecase "Rent Truck(s)" as rentTruck
+employee --- (rentTruck)
+(Manage Truck Info) -- truck
+(Release a truck) -- truck
+(Invoice manage) -- truck
+}
+@enduml

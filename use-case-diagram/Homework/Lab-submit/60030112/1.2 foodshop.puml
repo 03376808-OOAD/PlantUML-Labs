@@ -1,4 +1,4 @@
-@startuml foodshop diagram 1.2
+@startuml foodshop 1.2
 left to right direction
 skinparam packageStyle rectangle
 skinparam Shadowing false
@@ -10,8 +10,8 @@ skinparam actor {
 }
 ' skinparam linetype ortho
 skinparam usecase {
-    BackgroundColor CornflowerBlue
-    BorderColor CornflowerBlue
+    BackgroundColor Blue
+    BorderColor Blue
     FontColor Azure
     FontSize 20
 
